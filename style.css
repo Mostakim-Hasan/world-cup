@@ -1,0 +1,64 @@
+/* first section  */
+.first-section {
+    display: flex;
+    background-color:
+        #161616;
+    color:
+        #FFFFFF;
+    margin-top: 50px;
+    margin-left: 140px;
+    margin-right: 139px;
+    border-radius: 40px;
+}
+
+.first-div {
+    width: 1321px;
+    padding-left: 106px;
+    padding-top: 50px;
+    padding-bottom: 111px;
+}
+
+.first-div a {
+    text-decoration: none;
+    color:
+        #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 25px;
+    margin-right: 485px;
+    gap: 10px;
+    background: #DD0000;
+    border-radius: 5px;
+}
+
+.first-div h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+}
+
+.first-section-text-padding {
+    padding-right: 20%;
+}
+
+.first-heading {
+    margin-bottom: 15px;
+}
+
+.first-paragraph {
+    margin-bottom: 25px;
+}
+
+.messi-img {
+    width: 60%;
+    padding-right: 200px;
+    margin-top: 40px;
+    height: 613px;
+    left: 801px;
+    top: 83px;
+    background: url(images/messi.png);
+    background-repeat: no-repeat;
+}
