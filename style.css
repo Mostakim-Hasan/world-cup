@@ -1,6 +1,7 @@
 body {
     font-family: 'Dancing Script', cursive;
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 /* first section  */
@@ -205,4 +206,48 @@ body {
 
     color: #161616;
 
+}
+
+/* footer  */
+footer {
+    width: 1585px;
+    height: 444px;
+    left: 0px;
+    top: 2090px;
+    margin-top: 130px;
+    background: #161616;
+}
+
+.footer-heading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 90px;
+}
+
+footer hr {
+    width: 1320px;
+    height: 0px;
+    left: 140px;
+    top: 2330px;
+
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-paragraph {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    font-feature-settings: 'liga' off;
+    color: #B9B9B9;
+    padding-top: 35px;
 }
