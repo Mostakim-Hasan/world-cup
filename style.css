@@ -1,3 +1,8 @@
+body {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
 /* first section  */
 .first-section {
     display: flex;
@@ -23,13 +28,20 @@
     color:
         #FFFFFF;
     display: flex;
-    flex-direction: row;
+    justify-content: space-evenly;
     align-items: flex-start;
-    padding: 16px 25px;
-    margin-right: 485px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 20px;
+    margin-right: 465px;
     gap: 10px;
     background: #DD0000;
     border-radius: 5px;
+}
+
+.watch-live-anchor {
+    padding-top: 5px;
 }
 
 .first-div h1 {
@@ -61,4 +73,129 @@
     top: 83px;
     background: url(images/messi.png);
     background-repeat: no-repeat;
+}
+
+/* section 2 */
+.second-section {
+    margin-top: 130px;
+    display: flex;
+}
+
+.section-two-anchor-div {
+    width: 220px;
+    height: 220px;
+    left: 140px;
+    top: 826px;
+
+    background: #161616;
+    border-radius: 10px;
+    padding: 30px;
+
+}
+
+.section-two-anchor-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 20%;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+
+.anchor-one {
+    text-decoration: none;
+    color: #161616;
+    background-color: #FFFFFF;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 4px;
+}
+
+.anchor-two {
+    text-decoration: none;
+    color: #161616;
+    background-color: #FFFFFF;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 68px;
+    padding-right: 68px;
+    border-radius: 4px;
+}
+
+.anchor-three {
+    text-decoration: none;
+    color: white;
+    background-color:
+        #DD0000;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 89px;
+    padding-right: 87px;
+    border-radius: 4px;
+}
+
+/* section 2 div 2 */
+.section-two-transfer-divs {
+    border: 1px solid gainsboro;
+}
+
+.without-img {
+    padding-left: 20px;
+}
+
+.hour-comment {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.hour-comment-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.section-two-transfer-div img {
+    padding-bottom: 15px;
+}
+
+.section-two-transfer-div a {
+    text-decoration: none;
+    color: #161616;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 17px;
+    padding-right: 16px;
+    border: 1px solid #161616;
+    border-radius: 5px;
+    width: 67px;
+    height: 24px;
+    left: 513px;
+    top: 1025px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.transfer-paragraph p {
+    width: 272px;
+    height: 54px;
+    left: 496px;
+    top: 1068px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #161616;
+
 }
