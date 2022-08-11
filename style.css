@@ -74,6 +74,18 @@ body {
     top: 83px;
     background: url(images/messi.png);
     background-repeat: no-repeat;
+    transition: background 0.7s linear;
+}
+
+.messi-img:hover {
+    width: 60%;
+    padding-right: 200px;
+    margin-top: 40px;
+    height: 613px;
+    left: 801px;
+    top: 83px;
+    background: url(images/neymer.png);
+    background-repeat: no-repeat;
 }
 
 /* section 2 */
@@ -250,4 +262,47 @@ footer hr {
     font-feature-settings: 'liga' off;
     color: #B9B9B9;
     padding-top: 35px;
+}
+
+/* upcoming match  */
+.match-divs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.match-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+}
+
+.flag-div {
+    display: flex;
+    gap: 21px;
+}
+
+.country-name {
+    margin-bottom: 0;
+}
+
+.padding-div {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 53px;
+    padding-bottom: 53px;
+}
+
+.colour-change {
+    color: #FFFFFF;
+    background-color:
+        #DD0000;
+}
+
+.colour-change-blog {
+    color: #161616;
+    background-color: #FFFFFF;
 }
