@@ -139,7 +139,14 @@ body {
 
 /* section 2 div 2 */
 .section-two-transfer-divs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.section-two-transfer-div {
     border: 1px solid gainsboro;
+    border-radius: 10px;
 }
 
 .without-img {
